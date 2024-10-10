@@ -1,94 +1,84 @@
-let customTheme = {
-  /* ACCENT COLORS */
-  accentColor: "#2780e6", // main accent color [default: #2780e6]
-  hoverAccentColor: "#1e63b3", // hover accent color [default: #1e63b3]
-  successColor: "#43b581", // success color [default: #43b581]
-  dangerColor: "#982929", // danger color [default: #982929]
-  urlColor: "#2780e6", // url color [default: #2780e6]
-
-  /* STATUS COLORS */
-  onlineColor: "#00AA00", // online status color [default: #43b581]
-  idleColor: "#faa61a", // idle status color [default: #faa61a]
-  dndColor: "#982929", // do not disturb status color [default: #982929]
-  streamingColor: "#593695", // streaming status color [default: #593695]
-  offlineColor: "#808080", // offline status color [default: #808080]
-
-  /* GENERAL */
-  mainFont: "Comic Sans MS", // main font for app [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif]
-  codeFont: "Consolas, Liberation Mono, Menlo, Courier, monospace", // font for code blocks
-  textNormal: "rgb(220, 221, 222)", // default text color
-  textMuted: "rgb(114, 118, 125)", // muted text color
-  channelsWidth: "220px", // channel list width [default: 240px]
-  membersWidth: "240px", // member list width [default: 240px]
-
-  /* BACKGROUND SETTINGS */
-  backgroundShading: "0%", // background shading [default: 100%]
-  backgroundOverlay: "rgba(0, 0, 0, 0.6)", // background overlay color [default: rgba(0, 0, 0, 0.6)]
-  backgroundImage: "https://i.imgur.com/0IM9G5H.png", // background image URL [default: sapphire image]
-  backgroundPosition: "center", // background position [default: center]
-  backgroundSize: "cover", // background size [default: cover]
-  backgroundRepeat: "no-repeat", // background repeat [default: no-repeat]
-  backgroundAttachment: "fixed", // background attachment [default: fixed]
-  backgroundBrightness: "100%", // brightness adjustment [default: 100%]
-  backgroundContrast: "100%", // contrast adjustment [default: 100%]
-  backgroundSaturation: "100%", // saturation adjustment [default: 100%]
-  backgroundInvert: "0%", // invert colors [default: 0%]
-  backgroundGrayscale: "0%", // grayscale filter [default: 0%]
-  backgroundSepia: "0%", // sepia filter [default: 0%]
-  backgroundBlur: "0px", // blur effect [default: 0px]
-
-  /* HOME BUTTON ICON */
-  homeIcon: "https://i.imgur.com/CgiYhcf.png", // home button icon [default: Discord logo]
-  homePosition: "center", // home button position [default: center]
-  homeSize: "40px", // home button size [default: 40px]
-
-  /* CHANNEL COLORS */
-  channelUnread: "#2780e6", // unread channel color [default: main color]
-  channelColor: "rgba(255, 255, 255, 0.3)", // read channel color
-  channelTextSelected: "#fff", // selected channel text color [default: white]
-  mutedColor: "rgba(255, 255, 255, 0.1)", // muted channel color
-
-  /* MODAL SETTINGS */
-  modalOverlay: "rgba(0, 0, 0, 0.8)", // modal backdrop overlay color
-  modalImage: "https://i.imgur.com/0IM9G5H.png", // modal background image
-  modalPosition: "center", // modal background position
-  modalSize: "cover", // modal background size
-  modalRepeat: "no-repeat", // modal background repeat
-  modalAttachment: "fixed", // modal background attachment
-  modalBrightness: "100%", // modal background brightness
-  modalContrast: "100%", // modal background contrast
-  modalSaturation: "100%", // modal background saturation
-  modalInvert: "0%", // modal invert colors
-  modalGrayscale: "0%", // modal grayscale filter
-  modalSepia: "0%", // modal sepia filter
-  modalBlur: "3px", // modal background blur
-
-  /* USER POPOUT SETTINGS */
-  userPopoutImage: "https://i.imgur.com/0IM9G5H.png", // user popout background image
-  userPopoutPosition: "center", // user popout background position
-  userPopoutSize: "cover", // user popout background size
-  userPopoutRepeat: "no-repeat", // user popout background repeat
-  userPopoutAttachment: "fixed", // user popout background attachment
-  userPopoutBrightness: "100%", // user popout background brightness
-  userPopoutContrast: "100%", // user popout background contrast
-  userPopoutSaturation: "100%", // user popout background saturation
-  userPopoutInvert: "0%", // user popout invert colors
-  userPopoutGrayscale: "0%", // user popout grayscale filter
-  userPopoutSepia: "0%", // user popout sepia filter
-  userPopoutBlur: "3px", // user popout background blur
-  userPopoutOverlay: "rgba(0, 0, 0, 0.6)", // user popout overlay color
-
-  /* USER MODAL SETTINGS */
-  userModalImage: "https://i.imgur.com/0IM9G5H.png", // user modal background image
-  userModalPosition: "center", // user modal background position
-  userModalSize: "cover", // user modal background size
-  userModalRepeat: "no-repeat", // user modal background repeat
-  userModalAttachment: "fixed", // user modal background attachment
-  userModalBrightness: "100%", // user modal background brightness
-  userModalContrast: "100%", // user modal background contrast
-  userModalSaturation: "100%", // user modal background saturation
-  userModalInvert: "0%", // user modal invert colors
-  userModalGrayscale: "0%", // user modal grayscale filter
-  userModalSepia: "0%", // user modal sepia filter
-  userModalBlur: "3px" // user modal background blur
-};
+{
+  "name": "clearvision",
+  "description": "Soothing pastel theme for the high-spirited!",
+  "authors": [
+   {
+    "name": "Clearvision"
+   }
+  ],
+  "accentColor": "#2780e6",
+  "hoverAccentColor": "#1e63b3",
+  "successColor": "#43b581",
+  "dangerColor": "#982929",
+  "urlColor": "#2780e6",
+  "onlineColor": "#00AA00",
+  "idleColor": "#faa61a",
+  "dndColor": "#982929",
+  "streamingColor": "#593695",
+  "offlineColor": "#808080",
+  "mainFont": "Comic Sans MS",
+  "codeFont": "Consolas, Liberation Mono, Menlo, Courier, monospace",
+  "textNormal": "rgb(220, 221, 222)",
+  "textMuted": "rgb(114, 118, 125)",
+  "channelsWidth": "220px",
+  "membersWidth": "240px",
+  "backgroundShading": "0%",
+  "backgroundOverlay": "rgba(0, 0, 0, 0.6)",
+  "backgroundImage": "https://i.imgur.com/0IM9G5H.png",
+  "backgroundPosition": "center",
+  "backgroundSize": "cover",
+  "backgroundRepeat": "no-repeat",
+  "backgroundAttachment": "fixed",
+  "backgroundBrightness": "100%",
+  "backgroundContrast": "100%",
+  "backgroundSaturation": "100%",
+  "backgroundInvert": "0%",
+  "backgroundGrayscale": "0%",
+  "backgroundSepia": "0%",
+  "backgroundBlur": "0px",
+  "homeIcon": "https://i.imgur.com/CgiYhcf.png",
+  "homePosition": "center",
+  "homeSize": "40px",
+  "channelUnread": "#2780e6",
+  "channelColor": "rgba(255, 255, 255, 0.3)",
+  "channelTextSelected": "#fff",
+  "mutedColor": "rgba(255, 255, 255, 0.1)",
+  "modalOverlay": "rgba(0, 0, 0, 0.8)",
+  "modalImage": "https://i.imgur.com/0IM9G5H.png",
+  "modalPosition": "center",
+  "modalSize": "cover",
+  "modalRepeat": "no-repeat",
+  "modalAttachment": "fixed",
+  "modalBrightness": "100%",
+  "modalContrast": "100%",
+  "modalSaturation": "100%",
+  "modalInvert": "0%",
+  "modalGrayscale": "0%",
+  "modalSepia": "0%",
+  "modalBlur": "3px",
+  "userPopoutImage": "https://i.imgur.com/0IM9G5H.png",
+  "userPopoutPosition": "center",
+  "userPopoutSize": "cover",
+  "userPopoutRepeat": "no-repeat",
+  "userPopoutAttachment": "fixed",
+  "userPopoutBrightness": "100%",
+  "userPopoutContrast": "100%",
+  "userPopoutSaturation": "100%",
+  "userPopoutInvert": "0%",
+  "userPopoutGrayscale": "0%",
+  "userPopoutSepia": "0%",
+  "userPopoutBlur": "3px",
+  "userPopoutOverlay": "rgba(0, 0, 0, 0.6)",
+  "userModalImage": "https://i.imgur.com/0IM9G5H.png",
+  "userModalPosition": "center",
+  "userModalSize": "cover",
+  "userModalRepeat": "no-repeat",
+  "userModalAttachment": "fixed",
+  "userModalBrightness": "100%",
+  "userModalContrast": "100%",
+  "userModalSaturation": "100%",
+  "userModalInvert": "0%",
+  "userModalGrayscale": "0%",
+  "userModalSepia": "0%",
+  "userModalBlur": "3px"
+}
