@@ -1,10 +1,10 @@
 {
-    "name": "ClearVision v1.2.6",
-    "description": "Clear Vision paints serenity across the canvas of our Discord realm.",
+    "name": "ClearVision",
+    "description": "Clear Vision est un thème qui permet de choisir son propre arrière-plan Discord à partir d'une image.",
 	"authors": [
       {
-         "name": "Taki_Shiwa",
-         "id": "466968658997149706"
+         "name": "Zebre_2007",
+         "id": "1196138101140115720"
       }
     ],
     "semanticColors": {
